@@ -1,9 +1,8 @@
 # import các thư viện hay dùng 
-import pandas as pd # data fail
-import numpy as np
-import matplotlib.pyplot as plt # vẽ biểu đồ
-import seaborn as sns # vẽ biểu đồ
-from sklearn.linear_model import LogisticRegression # thuat toan 
+import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns 
+from sklearn.linear_model import LogisticRegression  
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import streamlit as st
